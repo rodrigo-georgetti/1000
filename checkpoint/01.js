@@ -40,7 +40,7 @@ function henryParty(arr) {
         esConocido = true;
       }
       if (arr[i][indice] === "VIP") {
-        esVip = true; ////
+        esVip = true; //
       }
     }
     if (esConocido === true && esVip === true){
