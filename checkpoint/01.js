@@ -32,10 +32,10 @@ const { Queue } = require("../DS");
 
 function henryParty(arr) {
   var queue = new Queue();
-  for (let i = 0; i < arr.length; i++){
+  for (let i = 0; i < arr.length; i++) {
     let esConocido = false;
     let esVip = false;
-    for (let indice in arr[i]){
+    for (let indice in arr[i]) {
       if (arr[i][indice] === "Conocido") {
         esConocido = true;
       }
@@ -43,7 +43,7 @@ function henryParty(arr) {
         esVip = true;
       }
     }
-    if (esConocido === true && esVip === true){
+    if (esConocido === true && esVip === true) {
       queue.enqueue(arr[i]);
     }
   }
