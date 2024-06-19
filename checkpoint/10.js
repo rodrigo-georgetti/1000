@@ -29,10 +29,10 @@ const { BinarySearchTree } = require("../DS");
 //  🟢 Devolver un array con los numeros mayores al recibido por parametros
 //  🟢 Recorrer el arbol de manera depth-first pre-order
 BinarySearchTree.prototype.spotHousePrices = function (num, arr = []) {
-    // Tu código aquí:
-  }
-  
-  // ⚠️ NO MODIFICAR NADA POR DEBAJO DE ESTA LÍNEA ⚠️
-  module.exports = {
-    BinarySearchTree
-  };
+  // Tu código aquí:
+}
+
+// ⚠️ NO MODIFICAR NADA POR DEBAJO DE ESTA LÍNEA ⚠️
+module.exports = {
+  BinarySearchTree
+};
